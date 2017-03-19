@@ -42,7 +42,7 @@ h2{
 }
 h3{
    margin: 0;
-   
+   padding-top: 1%;
    text-align: center;
    font-size: 30px;
    font-weight: 300;
@@ -75,17 +75,9 @@ figure{
 #icon{
     height: 183px;
 }
-/*
-#img-portfolio>figure{
-    margin-left: 0px;
-    margin: 5%;
+
+.img-portfolio{
     text-align: center;
-    display: inline;
-}
-*/
-.imag{
-    display: inline-block;
-    width: 60%;
 }
 
 
