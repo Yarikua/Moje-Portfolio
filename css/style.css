@@ -48,15 +48,33 @@ h3{
    font-size: 30px;
    font-weight: 300;
 }
-articl>img{
-    max-height: 350px;
-    margin-left: 190px;
+article#text1>img{
     float: left;
+    width: 250px;
+    margin-left: 190px;
 }
-#o_mnie{
+#text-omnie{
     padding-left: 670px;
     padding-right: 100px;
+    padding-bottom: 120px;
 }
-section{
+section#O-mnie{
     background-color: #f9fcfe;
+}
+article#text2{
+    clear: both;
+    text-align: center;
+}
+#moje-umiejetnosci{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+div#icon{
+    padding: 50px;
+    display: inline-block;
+    
+}
+figure{
+    display: inline-block;
 }
