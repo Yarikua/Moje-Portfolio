@@ -1,5 +1,62 @@
+html{
+    margin: -10px;
+}
 body{
-    font-family: 'Lato', sans-serif;
-    color: #291f1a;
+    font-family: 'Lato', sans-serif;   
+}
+li{
+    display: inline-block;
+    margin: 20px;
+    color: white;
+}
+#main-nav{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+h1{ 
+    color: white;
+    margin: 0px;
+    font-size: 120px;
+    font-weight: 100;
+}
+h2{ 
+    color: white;
+    margin: 0px;
+    font-size: 30px;
     font-weight: 300;
+}
+
+.green{
+    color: limegreen;
+    font-weight: 400;
+}
+
+#main-header{
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    background-position: center;  
+}
+.main-header-content{
+    padding: 32vh;
+    text-align: center;
+}
+h3{
+   margin: 0;
+    padding: 10px;
+   text-align: center;
+   font-size: 30px;
+   font-weight: 300;
+}
+articl>img{
+    max-height: 350px;
+    margin-left: 190px;
+    float: left;
+}
+#o_mnie{
+    padding-left: 670px;
+    padding-right: 100px;
+}
+section{
+    background-color: #f9fcfe;
 }
