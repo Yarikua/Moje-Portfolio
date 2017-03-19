@@ -11,13 +11,13 @@ li{
 }
 #main-nav{
     position: absolute;
-    right: 10px;
-    top: 10px;
+    right: 3%;
+    top: 0%;
 }
 h1{ 
     color: white;
     margin: 0px;
-    font-size: 120px;
+    font-size: 87px;
     font-weight: 100;
 }
 h2{ 
@@ -35,7 +35,6 @@ h2{
 #main-header{
     background-image: url(../img/header-background.jpg);
     background-size: cover;
-    background-position: center;  
 }
 .main-header-content{
     padding: 32vh;
@@ -43,38 +42,50 @@ h2{
 }
 h3{
    margin: 0;
-    padding: 10px;
+   
    text-align: center;
    font-size: 30px;
    font-weight: 300;
 }
 article#text1>img{
     float: left;
-    width: 250px;
-    margin-left: 190px;
+    width: 23%;
+    margin-left: 12%;
 }
 #text-omnie{
-    padding-left: 670px;
-    padding-right: 100px;
-    padding-bottom: 120px;
+    padding-left: 50%;
+    padding-right: 5%;
+    padding-bottom: 16%;
 }
 section#O-mnie{
     background-color: #f9fcfe;
 }
 article#text2{
-    clear: both;
     text-align: center;
 }
 #moje-umiejetnosci{
-    text-align: center;
     padding-left: 10%;
     padding-right: 10%;
 }
-div#icon{
-    padding: 50px;
-    display: inline-block;
-    
-}
+
 figure{
     display: inline-block;
 }
+
+#icon{
+    height: 183px;
+}
+/*
+#img-portfolio>figure{
+    margin-left: 0px;
+    margin: 5%;
+    text-align: center;
+    display: inline;
+}
+*/
+.imag{
+    display: inline-block;
+    width: 60%;
+}
+
+
