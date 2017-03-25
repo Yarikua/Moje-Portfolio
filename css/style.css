@@ -100,6 +100,7 @@ figure{
     left: 0;
     right: 0;
     margin: 0 auto;
+    margin-top: 2%;
 }
 
 .single-portfolio-item-mask{
@@ -133,21 +134,30 @@ figure{
 footer{
     background-color: #142634;
     color: white;
-    padding: 0 80px
+    padding: 0 80px;
+    margin-top: 4%;
 }
 #kontakt{
-    margin-top: 5%;
+    margin-top: 15%;
 }
 #left{
     text-align: left;
+    margin-top: 3%;
 }
+i{
+    margin: 5px;
+}
+
 /*form*/
 form{
-    padding-left: 50%;   
+    padding-left: 50%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
 }
 
 #left{
-    float: left;
+    float: left;  
 }
 
 input{
@@ -168,4 +178,5 @@ input[type="submit"]{
     background-color: forestgreen;
     padding: 10px;
     width: 100px;
+    
     
