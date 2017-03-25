@@ -135,11 +135,37 @@ footer{
     color: white;
     padding: 0 80px
 }
-
 #kontakt{
     margin-top: 5%;
 }
-
 #left{
     text-align: left;
 }
+/*form*/
+form{
+    padding-left: 50%;   
+}
+
+#left{
+    float: left;
+}
+
+input{
+    background-color: #2b4a64;
+    border: 0;
+    width: 450px;
+    margin: 5px;
+    padding: 7px;
+}
+textarea{
+    background-color: #2b4a64;
+    width: 450px;
+    border: 0;
+    margin: 5px;
+    padding: 7px;
+}
+input[type="submit"]{
+    background-color: forestgreen;
+    padding: 10px;
+    width: 100px;
+    
