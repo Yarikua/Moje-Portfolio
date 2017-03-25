@@ -80,4 +80,15 @@ figure{
     text-align: center;
 }
 
+footer{
+    background-color: darkslategray;
+    color: white;
+}
 
+.kontakt{
+    text-align: left;
+    margin-top: 5px;
+    padding: 6px;
+    padding-left: 6%;
+    padding-bottom: 10px;
+}
