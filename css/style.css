@@ -41,7 +41,7 @@ h2{
     text-align: center;
 }
 h3{
-   margin: 10px;
+   margin: 19px;
    padding-top: 1%;
    text-align: center;
    font-size: 30px;
@@ -67,15 +67,12 @@ article#text2{
     padding-left: 10%;
     padding-right: 10%;
 }
-
 figure{
     display: inline-block;
 }
-
 #icon{
     height: 183px;
 }
-
 #portfolio-item-1{
     background-image: url(../img/portfolio1.jpg)
 }
@@ -97,7 +94,12 @@ figure{
 .portfolio-items{
     text-align: center;
     font-size: 0;
+    width: 90%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
+
 .single-portfolio-item-mask{
     background: rgba(42, 61, 79, 0.8);
     width: 100%;
@@ -110,7 +112,6 @@ figure{
     opacity: 1;
     transition: all 0.3s ease-in-out;
     color: white;
-    
 }
 .single-portfolio-item-mask-content{
     border: 1px solid #fff;
@@ -127,18 +128,15 @@ figure{
     padding: 5px;
     font-weight: 100;
 }
-
-
-
-
 footer{
-    background-color: darkslategray;
+    background-color: #142634;
     color: white;
+    padding: 0 80px;
 }
 .kontakt{
-    text-align: left;
-    margin-top: 5px;
-    padding: 6px;
-    padding-left: 6%;
-    padding-bottom: 10px;
+    margin: 0;
+    margin-top: 5%;
+}
+h3.kontakt{
+    left: 10px;
 }
