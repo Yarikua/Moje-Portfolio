@@ -2,6 +2,7 @@ html{
     margin: -10px;
 }
 body{
+    margin: 0;
     font-family: 'Lato', sans-serif;   
 }
 li{
@@ -41,7 +42,8 @@ h2{
     text-align: center;
 }
 h3{
-   margin: 19px;
+/*   padding: 1%*/
+   margin: 0px;
    padding-top: 1%;
    text-align: center;
    font-size: 30px;
@@ -131,12 +133,13 @@ figure{
 footer{
     background-color: #142634;
     color: white;
-    padding: 0 80px;
+    padding: 0 80px
 }
-.kontakt{
-    margin: 0;
+
+#kontakt{
     margin-top: 5%;
 }
-h3.kontakt{
-    left: 10px;
+
+#left{
+    text-align: left;
 }
