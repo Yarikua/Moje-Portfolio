@@ -76,15 +76,37 @@ figure{
     height: 183px;
 }
 
-.img-portfolio{
-    text-align: center;
+#portfolio-item-1{
+    background-image: url(../img/portfolio1.jpg)
 }
+#portfolio-item-2{
+    background-image: url(../img/portfolio2.jpg)
+}
+#portfolio-item-3{
+    background-image: url(../img/portfolio3.jpg)
+}
+.single-portfolio-items{
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 33.3333%;
+    position: relative;
+}
+.portfolio-items{
+    text-align: center;
+    font-size: 0;
+}
+
+
+
+
 
 footer{
     background-color: darkslategray;
     color: white;
 }
-
 .kontakt{
     text-align: left;
     margin-top: 5px;
