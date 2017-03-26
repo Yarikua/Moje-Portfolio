@@ -3,7 +3,7 @@ html{
 }
 body{
     margin: 0;
-    font-family: 'Lato', sans-serif;   
+    font-family: 'Lato', sans-serif;
 }
 li{
     display: inline-block;
@@ -139,7 +139,7 @@ figure{
     padding: 5px;
     font-weight: 100;
 }
-footer{
+#kont{
     background-color: #142634;
     color: white;
     padding: 0 80px;
@@ -186,5 +186,11 @@ input[type="submit"]{
     background-color: forestgreen;
     padding: 10px;
     width: 100px;
-    
-    
+}
+footer{
+    background-color: #2b4a64;
+    padding: 0 80px;
+}
+footer>p{
+    margin: 0;
+}
