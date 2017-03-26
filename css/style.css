@@ -10,6 +10,14 @@ li{
     margin: 20px;
     color: white;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+li:hover{
+    color: papayawhip;
+    font-size: 18px;
+}
 #main-nav{
     position: absolute;
     right: 3%;
