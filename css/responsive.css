@@ -3,7 +3,8 @@
     #main-nav .toggle{
         display: block;
         background-color: #fff;
-        padding: 0 20px;
+        padding: 0 55px;
+        border-radius: 100px;
         color: #1ac056;
         font-size: 20px;
         line-height: 60px;
@@ -20,7 +21,7 @@
     #main-nav >ul > li{
         display: block;
         width: 100%;
-        padding: 20px;
+        margin-right: 30px;
         text-align: right;
     }
 }
@@ -33,6 +34,7 @@
 @media all and (max-width : 768px){
     main-header-content{
         padding: 10%;
+        margin-right: 30;
     }
 }
 
@@ -51,17 +53,18 @@
     }
 }
 
-@media all and (max-width :768px){
-    .single-portfolio-items{
-        width: 100%;
-    }
-}
-      
-    
+         
 @media all and (max-width :768px){
     div#left{
         width: 100%;
         text-align: center;
+    }
+    div#form{
+        width: 100%;
+        text-align: center;
+    }
+    .single-portfolio-items{
+        width: 100%;
     }
 }
 
