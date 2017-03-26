@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Portfolio JM</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- responsive-->
@@ -14,10 +14,8 @@
 </head>
 
 <body>
-
     <header id="main-header">
         <div class="main-header-content">
-
             <h1>
                 Jarosław <span class="green">Mudrytskyi</span>
             </h1>
@@ -28,8 +26,8 @@
     </header>
     <nav id="main-nav">
 <!--               RESPONSIVE-->
-                <label class="toggle" for="drop">MENU</label>
-                <input type="cheakbox" class="toggle" id="drop">
+                <label class="toggle" for="drop" >MENU</label>
+                <input type="checkbox" name="menu" id="drop" />
 <!--               RESPONSIVE-->
                 <ul>
                     <li><a href="#o-mnie">O mnie</a></li> 
@@ -37,12 +35,13 @@
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#Kontakt">Kontakt</a></li>
                 </ul>
-        </label>
     </nav>
-    <section id="O-mnie"><a name="o-mnie"></a>
+    <section id="about"><a name="o-mnie"></a>
         <h3>O <span class="green">mnie</span></h3>
         <article id="text1">
-            <img src="img/jan-nowak.jpg" alt="Jan Nowak">
+
+           <img src="img/jan-nowak.jpg" alt="Jan Nowak">
+           
             <p id=text-omnie>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit repudiandae quos eius, maiores placeat sunt earum, doloribus cumque repellendus quas iure suscipit ipsam aperiam nostrum. Nihil doloremque esse nam est rerum laboriosam ratione reprehenderit dolores incidunt tenetur quod neque consequuntur in ullam perferendis ducimus, assumenda dolor saepe omnis possimus natus voluptatum deserunt! Vitae et ea sunt perferendis delectus, debitis eius beatae esse nulla laboriosam quo quas hic ducimus, magnam provident veritatis harum dolorum maxime fugit est natus? Accusantium eos aliquam, facere ea id iure rerum tempore nisi consequatur non nostrum ab omnis doloribus natus. Perferendis culpa, quam expedita error similique.
             </p>
@@ -73,6 +72,7 @@
             </figure>
         </div>
     </article>
+    
 <article id="port-folio">
     <a name="potrfolio"></a>
     <h3>Moje <span class="green">portfolio</span></h3>
@@ -123,15 +123,15 @@
         </div>
     </section>
 </article>
+   
     <article id="kont">
         <div id="left"><a name="Kontakt">
             <h3 class="left">Jarosław <span class="green">Mudrytskyi</span></h3>
             <p id="kontakt">
                 <p>ul. Wiosenna 6/18
                 <br> 05-091 Ząbki </p>
-                <p>tel: 737-574-240
-                <br> e-mail:
-                <span class="green"> mr.yarikua@gmail.com</span></p>
+                tel: 737-574-240
+                    <br> e-mail: <a href="mailto:mr.yarikua@gmail.com"><span class="green">mr.yarikua@gmail.com</span></a>
                 <br>
                 <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
                 <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i>
@@ -142,7 +142,7 @@
         <form action="https://formspree.io/mr.yarikua@gmail.com" method="post">
             <input type="text" name="firstname" placeholder="Imię i Nazwisko:">
             <br>
-            <input type="text" name="telefon" placeholder="E-mail:">
+            <input type="email" name="email" placeholder="E-mail:">
             <br>
             <textarea name="wiadomosc" rows="10" cols="22" placeholder="Wiadomość:"></textarea>
             <br>

@@ -1,13 +1,6 @@
-.toggle{
-    display: none;
-}
 
-
-@media all and (max-width : 1200px)
-    
-    
 @media all and (max-width : 768px){
-    .toggle{
+    #main-nav .toggle{
         display: block;
         background-color: #fff;
         padding: 0 20px;
@@ -17,13 +10,58 @@
         text-decoration: none;
         border: none;
         text-align: right;
-    }   
+    } 
+    #main-nav  ul{
+            display: none;
+    }    
+    #main-nav #drop:checked + ul{
+        display: block;
+    }
+    #main-nav >ul > li{
+        display: block;
+        width: 100%;
+        padding: 20px;
+        text-align: right;
+    }
 }
-    
-    
-@media all and (max-width : 680px)
-    
-    
-@media all and (max-width : 480px)
+.toggle{
+    display: none;
+}
+#drop{
+    display: none;
+}
+@media all and (max-width : 768px){
+    main-header-content{
+        padding: 10%;
+    }
+}
 
+@media all and (max-width : 680px){
+    h1{font-size: 3em}
+    h2{font-size: 1.5em}
+}
+
+
+@media all and (max-width :1200px){
+    .single-portfolio-items{
+        width: 50%;
+        }
+    .single-portfolio-items:last-child{
+        width: 100%;
+    }
+}
+
+@media all and (max-width :768px){
+    .single-portfolio-items{
+        width: 100%;
+    }
+}
+      
+    
+@media all and (max-width :768px){
+    div#left{
+        width: 100%;
+        text-align: center;
+    }
+}
 
