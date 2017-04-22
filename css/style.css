@@ -62,12 +62,12 @@ article#text1>img{
 }
 
 #text-omnie{
-    padding-left: 50%;
     padding-right: 5%;
     padding-bottom: 16%;
 }
-section#about{
+div#about{
     background-color: #f9fcfe;
+    text-align: center;
 }
 article#text2{
     text-align: center;
@@ -155,18 +155,13 @@ figure{
 i{
     margin: 5px;
 }
+
 /*form*/
-#form{
+#forma{
     padding: 15px;
 }
-}
-#form{
-    color:red;
-    border: 0;
-    margin: 5px;
-    padding: 7px;
-}
-textarea{
+
+textarea, input{
     background-color: #2b4a64;
     width: 74%;
     border: 0;
