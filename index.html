@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio JM</title>
+    <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -12,7 +13,7 @@
     <!-- Link Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700" rel="stylesheet">
     <!--font-awesome-->
-    <link rel="stylesheet" href="css/font-awesome.css">
+
 </head>
 
 <body>
@@ -26,37 +27,52 @@
             </h2>
         </div>
     </header>
-        <nav id="main-nav">
-                                <!--RESPONSIVE-->
-                    <label class="toggle" for="drop" >MENU</label>
-                    <input type="checkbox" name="menu" id="drop" />
-                                <!--RESPONSIVE-->
-                    <ul class="nav nav-tabs navbar-fixed-top nav-justified navbar-inverse">
-                        <li><a href="#o-mnie">O mnie</a></li> 
-                        <li><a href="#umiejetnosci">Umiejętnośći</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#Kontakt">Kontakt</a></li>
-                    </ul>
-        </nav>         
-    <section id="about"><a name="o-mnie"></a>
-        <h3>O <span class="green">mnie</span></h3>
-        <article id="text1">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Menu</a>
+            </div>
 
-           <img src="img/jan-nowak.jpg" alt="Jan Nowak">
-           
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#o-mnie">O mnie</a></li>
+                    <li><a href="#umiejetnosci">Umiejętnośći</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#Kontakt">Kontakt</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+    <section id="about">
+        <a id="o-mnie"></a>
+        <h3>O <span class="green">mnie</span></h3>
+        <div id="text1">
+            <img src="img/jan-nowak.jpg" alt="Jan Nowak">
+
             <p id=text-omnie>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit repudiandae quos eius, maiores placeat sunt earum, doloribus cumque repellendus quas iure suscipit ipsam aperiam nostrum. Nihil doloremque esse nam est rerum laboriosam ratione reprehenderit dolores incidunt tenetur quod neque consequuntur in ullam perferendis ducimus, assumenda dolor saepe omnis possimus natus voluptatum deserunt! Vitae et ea sunt perferendis delectus, debitis eius beatae esse nulla laboriosam quo quas hic ducimus, magnam provident veritatis harum dolorum maxime fugit est natus? Accusantium eos aliquam, facere ea id iure rerum tempore nisi consequatur non nostrum ab omnis doloribus natus. Perferendis culpa, quam expedita error similique.
-            </p>
-        </article>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit repudiandae quos eius, maiores placeat sunt earum, doloribus cumque repellendus quas iure suscipit ipsam aperiam nostrum. Nihil doloremque esse nam est rerum laboriosam ratione reprehenderit dolores incidunt tenetur quod neque consequuntur in ullam perferendis ducimus, assumenda dolor saepe omnis possimus natus voluptatum deserunt! Vitae et ea sunt perferendis delectus, debitis eius beatae esse nulla laboriosam quo quas hic ducimus, magnam provident veritatis harum dolorum maxime fugit est natus? Accusantium eos aliquam, facere ea id iure rerum tempore nisi consequatur non nostrum ab omnis doloribus natus. Perferendis culpa, quam expedita error similique.</p>
+        </div>
     </section>
 
-    <article id="text2"><a name="umiejetnosci"></a>
+    <div id="text2">
+        <a id="umiejetnosci"></a>
         <h3>Moje <span class="green">umiejętności</span></h3>
         <p id="moje-umiejetnosci">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis blanditiis nobis, nemo a quidem quo eaque eius assumenda perferendis quod magni asperiores ipsam voluptatem, molestias sunt id asper
-        </p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis blanditiis nobis, nemo a quidem quo eaque eius assumenda perferendis quod magni asperiores ipsam voluptatem, molestias sunt id asper</p>
         <div id="icon" class="container">
-           <div class="row">
+            <div class="row">
                 <div class="col-sm-3 col-lg-3">
                     <figure>
                         <img src="icons/css3.png" alt="css">
@@ -83,97 +99,122 @@
                 </div>
             </div>
         </div>
-    
-    
-<article id="port-folio">
-    <a name="potrfolio"></a>
-    <h3>Moje <span class="green">portfolio</span></h3>
-    <section id="portfolio">
-        <div class="portfolio-items">
-            <div class="single-portfolio-items" id="portfolio-item-1">
-                <div class="single-portfolio-item-mask">
-                    <div class="single-portfolio-item-mask-content">
-                        <div class="single-portfolio-item-mask-content-inner">
-                            <h3><p>Lorem ipsum</p></h3>
-                            <h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus rem suscipit adipisci pariatur architecto, explicabo sit quod vel eius placeat explicabo sit quod vel eius placeat.
-                               </p></h4>
-                            <h3><p>Technologie</p></h3>
-                            <h4><p>Lorem ipsum dolor sit amet, consectetur <br>
-                           <i class="fa fa-laptop" aria-hidden="true"></i></p></h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single-portfolio-items" id="portfolio-item-2">
-                <div class="single-portfolio-item-mask">
-                    <div class="single-portfolio-item-mask-content">
-                        <div class="single-portfolio-item-mask-content-inner">
-                            <h3><p>Lorem ipsum</p></h3>
-                            <h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus rem suscipit adipisci pariatur architecto, explicabo sit quod vel eius placeat explicabo sit quod vel eius placeat.
-                               </p></h4>
-                            <h3><p>Technologie</p></h3>
-                            <h4><p>Lorem ipsum dolor sit amet, consectetur <br>
-                           <i class="fa fa-laptop" aria-hidden="true"></i></p></h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single-portfolio-items" id="portfolio-item-3">
-                <div class="single-portfolio-item-mask">
-                    <div class="single-portfolio-item-mask-content">
-                        <div class="single-portfolio-item-mask-content-inner">
-                            <h3><p>Lorem ipsum</p></h3>
-                            <h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus rem suscipit adipisci pariatur architecto, explicabo sit quod vel eius placeat explicabo sit quod vel eius placeat.
-                               </p></h4>
-                            <h3><p>Technologie</p></h3>
-                            <h4><p>Lorem ipsum dolor sit amet, consectetur <br>
-                           <i class="fa fa-laptop" aria-hidden="true"></i></p></h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</article>
-   
-    <article id="kont">
-        <div id="left"><a name="Kontakt">
-            <h2 class="left">Jarosław <span class="green">Mudrytskyi</span></h2>
-            <p id="kontakt">
-                <p>ul. Wiosenna 6/18
-                <br> 05-091 Ząbki </p>
-                tel: 737-574-240
-                    <br> e-mail: <a href="mailto:mr.yarikua@gmail.com"><span class="green">mr.yarikua@gmail.com</span></a>
-                <br>
-                <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
-                <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i>
-                <i class="fa fa-vk fa-3x" aria-hidden="true"></i>
-                <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
-            </p>
-        </div>
-        <div id="form">
-        <form action="https://formspree.io/mr.yarikua@gmail.com" method="post">
-            <input type="text" name="firstname" placeholder="Imię i Nazwisko:">
-            <br>
-            <input type="email" name="email" placeholder="E-mail:">
-            <br>
-            <textarea name="wiadomosc" rows="10" cols="22" placeholder="Wiadomość:"></textarea>
-            <br>
-            <input type="submit" value="Wyślij">
-        </form>
-        </div>
-    </article>
-    
-<footer>
-    <p>Copyright<i class="fa fa-copyright" aria-hidden="true"></i> Jarosław Mudrytskyi</p>
-</footer>
+     </div>
 
-<!--podpinamy jquery-->
-<script src="js/jquery-3.2.0.min.js"></script>
-<!--podpinamy bootstrap-->
-<script src="bootstrap/js/bootstrap.min.js"></script>
-<!--podpinamy main script-->
-<script src="js/main.js"></script>
+        <article id="port-folio">
+            <a id="potrfolio"></a>
+            <h3>Moje <span class="green">portfolio</span></h3>
+            <section id="portfolio">
+                <div class="portfolio-items">
+                    <div class="single-portfolio-items" id="portfolio-item-1">
+                        <div class="single-portfolio-item-mask">
+                            <div class="single-portfolio-item-mask-content">
+                                <div class="single-portfolio-item-mask-content-inner">
+                                    <h3>
+                                        Lorem ipsum
+                                    </h3>
+                                  
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus rem suscipit adipisci pariatur architecto, explicabo sit quod vel eius placeat explicabo sit quod vel eius placeat.</p>
+                                    
+                                    <h3>
+                                        Technologie
+                                    </h3>
+                                    
+                                        <p>Lorem ipsum dolor sit amet, consectetur <br>
+                                            <i class="fa fa-laptop" aria-hidden="true"></i></p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-portfolio-items" id="portfolio-item-2">
+                        <div class="single-portfolio-item-mask">
+                            <div class="single-portfolio-item-mask-content">
+                                <div class="single-portfolio-item-mask-content-inner">
+                                    <h3>
+                                        Lorem ipsum
+                                    </h3>
+                                    
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus rem suscipit adipisci pariatur architecto, explicabo sit quod vel eius placeat explicabo sit quod vel eius placeat.
+                                        </p>
+                                    
+                                    <h3>
+                                        Technologie
+                                    </h3>
+                                    
+                                        <p>Lorem ipsum dolor sit amet, consectetur <br>
+                                            <i class="fa fa-laptop" aria-hidden="true"></i></p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-portfolio-items" id="portfolio-item-3">
+                        <div class="single-portfolio-item-mask">
+                            <div class="single-portfolio-item-mask-content">
+                                <div class="single-portfolio-item-mask-content-inner">
+                                    <h3>
+                                        Lorem ipsum
+                                    </h3>
+                                    
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus rem suscipit adipisci pariatur architecto, explicabo sit quod vel eius placeat explicabo sit quod vel eius placeat.
+                                        </p>
+                                    
+                                    <h3>
+                                        Technologie
+                                    </h3>
+                                    
+                                        <p>Lorem ipsum dolor sit amet, consectetur <br>
+                                            <i class="fa fa-laptop" aria-hidden="true"></i></p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <div class="container" id="kont">
+            <div class="row">
+                <div id="left" class="col-lg-6 col-md-12">
+                    <div id="Kontakt">
+                        <h2 class="left">Jarosław <span class="green">Mudrytskyi</span></h2>
+                        <p id="kontakt">
+                            <p>ul. Wiosenna 6/18
+                                <br> 05-091 Ząbki </p>
+                            tel: 737-574-240
+                            <br> e-mail: <a href="mailto:mr.yarikua@gmail.com"><span class="green">mr.yarikua@gmail.com</span></a>
+                            <br>
+                            <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
+                            <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i>
+                            <i class="fa fa-vk fa-3x" aria-hidden="true"></i>
+                            <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                     </div>
+                </div>
+                <div id="form" class="col-lg-6 col-md-12">
+                    <form action="https://formspree.io/mr.yarikua@gmail.com" method="post">
+                        <input type="text" name="firstname" placeholder="Imię i Nazwisko:">
+                        <br>
+                        <input type="email" name="email" placeholder="E-mail:">
+                        <br>
+                        <textarea name="wiadomosc" rows="10" cols="22" placeholder="Wiadomość:"></textarea>
+                        <br>
+                        <input type="submit" value="Wyślij">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright<i class="fa fa-copyright" aria-hidden="true"></i> Jarosław Mudrytskyi</p>
+        </footer>
+
+        <!--podpinamy jquery-->
+        <script src="js/jquery-3.2.0.min.js"></script>
+        <!--podpinamy bootstrap-->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!--podpinamy main script-->
+        <script src="js/main.js"></script>
 
 </body>
 

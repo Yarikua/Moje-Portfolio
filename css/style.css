@@ -148,25 +148,21 @@ figure{
     text-align: center;
 }
 #left{
-    text-align: left;
+    /*text-align: left;*/
     margin-top: 3%;
+    padding: 15px;
 }
 i{
     margin: 5px;
 }
 /*form*/
 #form{
-    width: 40%;
     padding: 15px;
 }
-#left{
-    width: 40%;
-    padding: 15px;
 }
-input{
-    background-color: #2b4a64;
+#form{
+    color:red;
     border: 0;
-    width: 74%;
     margin: 5px;
     padding: 7px;
 }
@@ -181,6 +177,7 @@ input[type="submit"]{
     background-color: forestgreen;
     padding: 10px;
     width: 100px;
+    border: 0;
 }
 /*form*/
 footer{
