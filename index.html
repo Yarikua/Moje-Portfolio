@@ -8,7 +8,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- responsive-->
-    <link rel="stylesheet" href="css/responsive.css">
+    <!--<link rel="stylesheet" href="css/responsive.css">-->
     <!-- Link Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700" rel="stylesheet">
     <!--font-awesome-->
@@ -31,7 +31,7 @@
                     <label class="toggle" for="drop" >MENU</label>
                     <input type="checkbox" name="menu" id="drop" />
                                 <!--RESPONSIVE-->
-                    <ul class="nav nav-tabs navbar-fixed-top nav-justified">
+                    <ul class="nav nav-tabs navbar-fixed-top nav-justified navbar-inverse">
                         <li><a href="#o-mnie">O mnie</a></li> 
                         <li><a href="#umiejetnosci">Umiejętnośći</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
@@ -55,25 +55,35 @@
         <p id="moje-umiejetnosci">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis blanditiis nobis, nemo a quidem quo eaque eius assumenda perferendis quod magni asperiores ipsam voluptatem, molestias sunt id asper
         </p>
-        <div id="icon">
-            <figure>
-                <img src="icons/css3.png" alt="css">
-                <figcaption>CSS</figcaption>
-            </figure>
-            <figure>
-                <img src="icons/html5.png" alt="html">
-                <figcaption>HTML5</figcaption>
-            </figure>
-            <figure>
-                <img src="icons/jquery.png" alt="jquery">
-                <figcaption>jQuery</figcaption>
-            </figure>
-            <figure>
-                <img src="icons/js.png" alt="js">
-                <figcaption>JavaScript</figcaption>
-            </figure>
+        <div id="icon" class="container">
+           <div class="row">
+                <div class="col-sm-3 col-lg-3">
+                    <figure>
+                        <img src="icons/css3.png" alt="css">
+                        <figcaption>CSS</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-3 col-lg-3">
+                    <figure>
+                        <img src="icons/html5.png" alt="html">
+                        <figcaption>HTML5</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-3 col-lg-3">
+                    <figure>
+                        <img src="icons/jquery.png" alt="jquery">
+                        <figcaption>jQuery</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-3 col-lg-3">
+                    <figure>
+                        <img src="icons/js.png" alt="js">
+                        <figcaption>JavaScript</figcaption>
+                    </figure>
+                </div>
+            </div>
         </div>
-    </article>
+    
     
 <article id="port-folio">
     <a name="potrfolio"></a>
@@ -163,7 +173,6 @@
 <!--podpinamy bootstrap-->
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <!--podpinamy main script-->
-
 <script src="js/main.js"></script>
 
 </body>

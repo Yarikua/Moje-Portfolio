@@ -14,10 +14,10 @@ a{
     color: white;
     text-decoration: none;
 }
-li:hover{
+/*li:hover{
     color: papayawhip;
     font-size: 18px;
-}
+}*/
 #main-nav{
     position: absolute;
     right: 3%;
