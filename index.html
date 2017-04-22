@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio JM</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- responsive-->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Link Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700" rel="stylesheet">
+    <!--font-awesome-->
     <link rel="stylesheet" href="css/font-awesome.css">
 </head>
 
@@ -24,18 +26,18 @@
             </h2>
         </div>
     </header>
-    <nav id="main-nav">
-<!--               RESPONSIVE-->
-                <label class="toggle" for="drop" >MENU</label>
-                <input type="checkbox" name="menu" id="drop" />
-<!--               RESPONSIVE-->
-                <ul>
-                    <li><a href="#o-mnie">O mnie</a></li> 
-                    <li><a href="#umiejetnosci">Umiejętnośći</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#Kontakt">Kontakt</a></li>
-                </ul>
-    </nav>
+        <nav id="main-nav">
+                                <!--RESPONSIVE-->
+                    <label class="toggle" for="drop" >MENU</label>
+                    <input type="checkbox" name="menu" id="drop" />
+                                <!--RESPONSIVE-->
+                    <ul class="nav nav-tabs navbar-fixed-top nav-justified">
+                        <li><a href="#o-mnie">O mnie</a></li> 
+                        <li><a href="#umiejetnosci">Umiejętnośći</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#Kontakt">Kontakt</a></li>
+                    </ul>
+        </nav>         
     <section id="about"><a name="o-mnie"></a>
         <h3>O <span class="green">mnie</span></h3>
         <article id="text1">
@@ -156,6 +158,13 @@
     <p>Copyright<i class="fa fa-copyright" aria-hidden="true"></i> Jarosław Mudrytskyi</p>
 </footer>
 
+<!--podpinamy jquery-->
+<script src="js/jquery-3.2.0.min.js"></script>
+<!--podpinamy bootstrap-->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<!--podpinamy main script-->
+
+<script src="js/main.js"></script>
 
 </body>
 
