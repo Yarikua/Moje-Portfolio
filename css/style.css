@@ -2,6 +2,7 @@ html{
     margin: -7px;
 }
 body{
+    padding-top: 58px;
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
@@ -43,7 +44,7 @@ h2{
     background-image: url(../img/header-background.jpg);
     background-size: cover;
 }
-.main-header-content{
+#main-header-content{
     padding: 32vh;
     text-align: center;
 }
@@ -66,6 +67,7 @@ article#text1>img{
     padding-bottom: 16%;
 }
 div#about{
+    width: 100%;
     background-color: #f9fcfe;
     text-align: center;
 }
@@ -81,6 +83,7 @@ figure{
 }
 #icon{
     height: 21%;
+    text-align: center;
 }
 #portfolio-item-1{
     background-image: url(../img/portfolio1.jpg)
@@ -138,10 +141,12 @@ figure{
     font-weight: 100;
 }
 #kont{
+    text-align: center;
     background-color: #142634;
     color: white;
     padding: 0 80px;
     margin-top: 4%;
+    width: 100%;
 }
 #kontakt{
     margin-top: 15%;
