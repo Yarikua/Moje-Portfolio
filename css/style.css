@@ -1,5 +1,4 @@
 body{
-    padding-top: 50px;
     font-family: 'Lato', sans-serif;
 }
 
@@ -7,22 +6,45 @@ body{
 
 #navcolor{
     background-color:  #2b4a64;
+    color: white;
+}
+#backmenu{
+    opacity: 0.6;
+    border: black;
 }
 
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: limegreen;
+}
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: right;
+}
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
 /*ZAGLÓWEK*/
 
 h1{ 
     text-align: center;
     color: white;
     margin: 0px;
-    font-size: 9vh;
+    font-size: 12vh;
     font-weight: 800;
 }
 h2{ 
     color: white;
     margin: 0px;
     font-size: 8vh;
-    font-weight: 300;
+    font-weight: 600;
 }
 h3{
    margin: 0px;
@@ -42,7 +64,7 @@ h3{
 /*HEADER BACKGRAUND*/
 
 #main-header{
-    background-image: url(../img/header-background.jpg);
+    background-image: url(../img/gora.jpg);
     background-size: cover;
 }
 #main-header-content{
@@ -89,13 +111,13 @@ figure img{
 /*PORTFOLIO*/
 
 #portfolio-item-1{
-    background-image: url(../img/portfolio1.jpg)
+    background-image: url(../img/DSC_0056.JPG);
 }
 #portfolio-item-2{
-    background-image: url(../img/portfolio2.jpg)
+    background-image: url(../img/DSC_0067.JPG)
 }
 #portfolio-item-3{
-    background-image: url(../img/portfolio3.jpg)
+    background-image: url(../img/DSC_0092.JPG)
 }
 .single-portfolio-items{
     height: 350px;
@@ -174,7 +196,6 @@ i{
 .ikon i:hover{
     transition: 0.7s;
     color: forestgreen;
-    font-size: 60px;
 }
 textarea, input{
     background-color: #2b4a64;
