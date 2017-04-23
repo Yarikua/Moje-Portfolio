@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- responsive-->
     <!--<link rel="stylesheet" href="css/responsive.css">-->
     <!-- Link Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700" rel="stylesheet">
@@ -40,7 +39,7 @@
     </nav>
     <header id="main-header">
         <div id="main-header-content" class="row">
-            <div class="col-lg-12">  
+            <div class="col-lg-12" id="napis">  
                 <h1>
                     Jarosław <span class="green">Mudrytskyi</span>
                 </h1>
@@ -52,7 +51,7 @@
     </header>
 
     <div id="about" class="container">
-        <div class="row">
+        <div class="row" id="mojtext">
             <div class="col-lg-12">
                 <a id="o-mnie"></a>
                 <h3>O <span class="green">mnie</span></h3>
@@ -69,7 +68,7 @@
         </div>
     </div>
 
-    <div id="text2">
+    <div id="umiem">
         <a id="umiejetnosci"></a>
         <h3>Moje <span class="green">umiejętności</span></h3>
         <p id="moje-umiejetnosci">
@@ -104,14 +103,15 @@
         </div>
     </div>
 
-    <article id="port-folio" class="container">
+    <article id="portfolio" class="container-fluid">
         <div class="row">
-            <a id="potrfolio"></a>
+           <div class="container">
+            <!--<a id="potrfolio"></a>-->
             <h3>Moje <span class="green">portfolio</span></h3>
-        </div>
+        
         <section id="portfolio" class="row">
             <div class="portfolio-items">
-                <div class="single-portfolio-items col-lg-4 col-md-12" id="portfolio-item-1">
+                <div class="single-portfolio-items col-sm-4 col-xs-12" id="portfolio-item-1">
                     <div class="single-portfolio-item-mask">
                         <div class="single-portfolio-item-mask-content">
                             <div class="single-portfolio-item-mask-content-inner">
@@ -132,7 +132,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="single-portfolio-items col-lg-4 col-md-12" id="portfolio-item-2">
+                <div class="single-portfolio-items col-sm-4 col-xs-12" id="portfolio-item-2">
                     <div class="single-portfolio-item-mask">
                         <div class="single-portfolio-item-mask-content">
                             <div class="single-portfolio-item-mask-content-inner">
@@ -154,7 +154,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="single-portfolio-items col-lg-4 col-md-12" id="portfolio-item-3">
+                <div class="single-portfolio-items col-sm-4 col-xs-12" id="portfolio-item-3">
                     <div class="single-portfolio-item-mask">
                         <div class="single-portfolio-item-mask-content">
                             <div class="single-portfolio-item-mask-content-inner">
@@ -178,11 +178,13 @@
                 </div>
             </div>
         </section>
+        </div>
+        </div>                      
     </article>
 
     <div class="container" id="kont">
         <div class="row">
-            <div id="left" class="col-lg-6 col-md-12">
+            <div id="left" class="col-sm-6">
                 <div id="Kontakt">
                     <h2 class="left">Jarosław <span class="green">Mudrytskyi</span></h2>
                     <div id="kontakt">
@@ -191,14 +193,14 @@
                         tel: 737-574-240
                         <br> e-mail: <a href="mailto:mr.yarikua@gmail.com"><span class="green">mr.yarikua@gmail.com</span></a>
                         <br>
-                        <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
-                        <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i>
-                        <i class="fa fa-vk fa-3x" aria-hidden="true"></i>
-                        <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                        <a href="https://www.facebook.com/mr.yarikua"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
+                        <a href="https://plus.google.com/u/0/"><i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i></a>
+                        <a href="https://vk.com/mudrytskyi"><i class="fa fa-vk fa-3x" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/yaroslav.mudrytskyi/"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
                     </div>        
                 </div>
             </div>
-            <div id="forma" class="col-lg-6 col-md-12">
+            <div id="forma" class="col-sm-6">
                 <form action="https://formspree.io/mr.yarikua@gmail.com" method="post">
                     <input type="text" name="firstname" placeholder="Imię i Nazwisko:">
                     <br>
@@ -206,7 +208,7 @@
                     <br>
                     <textarea name="wiadomosc" rows="10" cols="22" placeholder="Wiadomość:"></textarea>
                     <br>
-                    <input type="submit" value="Wyślij">
+                    <input id="przycisk" type="submit" value="Wyślij">
                 </form>
             </div>
         </div>

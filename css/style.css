@@ -2,32 +2,27 @@ body{
     padding-top: 50px;
     font-family: 'Lato', sans-serif;
 }
+
+/*NAVIGATION*/
+
 li{
     text-align: center;
 }
+
+/*ZAGLÓWEK*/
+
 h1{ 
+    text-align: center;
     color: white;
     margin: 0px;
-    font-size: 87px;
-    font-weight: 100;
+    font-size: 9vh;
+    font-weight: 800;
 }
 h2{ 
     color: white;
     margin: 0px;
-    font-size: 30px;
+    font-size: 8vh;
     font-weight: 300;
-}
-.green{
-    color: limegreen;
-    font-weight: 400;
-}
-#main-header{
-    background-image: url(../img/header-background.jpg);
-    background-size: cover;
-}
-#main-header-content{
-    padding: 32vh;
-    text-align: center;
 }
 h3{
    margin: 0px;
@@ -36,23 +31,59 @@ h3{
    font-size: 30px;
    font-weight: 300;
 }
+#napis{
+    margin-top: 20vh;
+}
+.green{
+    color: limegreen;
+    font-weight: 400;
+}
+
+/*HEADER BACKGRAUND*/
+
+#main-header{
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+}
+#main-header-content{
+    height: 80vh;
+    text-align: center;
+}
+
+/*O MNIE ZDJĘCIE + TEXT*/
+
 #text-omnie{
     padding-right: 5%;
     padding-bottom: 16%;
+}
+#mojtext{
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 div#about{
     width: 100%;
     background-color: #f9fcfe;
     text-align: center;
 }
+
+/*UMIEJETNOSCI + IKONY*/
+
+#umiem{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 #moje-umiejetnosci{
     padding-left: 10%;
     padding-right: 10%;
 }
 #icon{
+    margin-top: 30px;
     height: 21%;
     text-align: center;
 }
+
+/*PORTFOLIO*/
+
 #portfolio-item-1{
     background-image: url(../img/portfolio1.jpg)
 }
@@ -64,12 +95,7 @@ div#about{
 }
 .single-portfolio-items{
     height: 350px;
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    display: inline-block;
-    width: 33.3333%;
-    position: relative;
 }
 .portfolio-items{
     text-align: center;
@@ -109,6 +135,9 @@ div#about{
     padding: 5px;
     font-weight: 100;
 }
+
+/*KONTAKT*/
+
 #kont{
     text-align: center;
     background-color: #142634;
@@ -129,14 +158,22 @@ i{
     margin: 5px;
 }
 
-/*form*/
+/*FORM*/
+
 #forma{
     padding: 15px;
 }
-
+#kontakt i{
+    margin: 15px;
+}
+#kontakt i:hover{
+    transition: 0.7s;
+    color: forestgreen;
+    font-size: 60px;
+}
 textarea, input{
     background-color: #2b4a64;
-    width: 74%;
+    width: 100%;
     border: 0;
     margin: 5px;
     padding: 7px;
@@ -147,12 +184,12 @@ input[type="submit"]{
     width: 100px;
     border: 0;
 }
-/*form*/
+
+/*FOOTER*/
+
 footer{
     background-color: #2b4a64;
     padding: 0 80px;
     color: white;
 }
-footer>p{
-    margin: 0;
-}
+
