@@ -1,25 +1,9 @@
 body{
     padding-top: 50px;
-    margin: 0;
     font-family: 'Lato', sans-serif;
 }
 li{
-    display: inline-block;
-    margin: 20px;
-    color: white;
-}
-a{
-    color: white;
-    text-decoration: none;
-}
-/*li:hover{
-    color: papayawhip;
-    font-size: 18px;
-}*/
-#main-nav{
-    position: absolute;
-    right: 3%;
-    top: 0%;
+    text-align: center;
 }
 h1{ 
     color: white;
@@ -52,13 +36,6 @@ h3{
    font-size: 30px;
    font-weight: 300;
 }
-
-article#text1>img{
-    float: left;
-    width: 23%;
-    margin-left: 12%;
-}
-
 #text-omnie{
     padding-right: 5%;
     padding-bottom: 16%;
@@ -68,15 +45,9 @@ div#about{
     background-color: #f9fcfe;
     text-align: center;
 }
-article#text2{
-    text-align: center;
-}
 #moje-umiejetnosci{
     padding-left: 10%;
     padding-right: 10%;
-}
-figure{
-    display: inline-block;
 }
 #icon{
     height: 21%;
@@ -147,12 +118,11 @@ figure{
     width: 100%;
 }
 #kontakt{
-    margin-top: 15%;
+    margin-top: 5%;
     text-align: center;
 }
 #left{
-    /*text-align: left;*/
-    margin-top: 3%;
+    margin-top: 5%;
     padding: 15px;
 }
 i{
